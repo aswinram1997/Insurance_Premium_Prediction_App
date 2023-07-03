@@ -13,20 +13,15 @@ The [Kaggle Dataset](<https://www.kaggle.com/datasets/teertha/ushealthinsuranced
 ## Methodology
 The project follows a specific workflow for insurance premium prediction using the provided dataset:
 
-### Data Collection:
-The dataset containing insured data, including attributes and insurance charges, is collected as the initial step.
+- Data Collection:The dataset containing insured data, including attributes and insurance charges, is collected as the initial step.
 
-### Exploratory Data Analysis (EDA):
-EDA is conducted to gain insights into the dataset, identify patterns, and understand the relationships between attributes and insurance charges. This analysis provides valuable information for feature selection and modeling.
+- Exploratory Data Analysis (EDA):EDA is conducted to gain insights into the dataset, identify patterns, and understand the relationships between attributes and insurance charges. This analysis provides valuable information for feature selection and modeling.
 
-### Data Splitting:
-The preprocessed dataset is split into training, validation, and testing sets. The training set and validation set is used to train the prediction models, the testing set is used for evaluation.
+- Data Splitting:The preprocessed dataset is split into training, validation, and testing sets. The training set and validation set is used to train the prediction models, the testing set is used for evaluation.
 
-### Data Preprocessing:
-Data preprocessing involves several steps, including feature engineering, encoding categorical variables, and scaling numerical features. Feature engineering may involve creating new features or transforming existing ones to better represent the underlying relationships.
+- Data Preprocessing:Data preprocessing involves several steps, including feature engineering, encoding categorical variables, and scaling numerical features. Feature engineering may involve creating new features or transforming existing ones to better represent the underlying relationships.
 
-### Modeling, Evaluation, and Interpretation:
-Two prediction models, linear regression, and an ANN, are trained, evaluated, and interpreted with SHAP values using the training, validation, and testing data. The performance of each model is assessed using the R2 score. The ANN is identified as the winning algorithm based on superior performance.
+- Modeling, Evaluation, and Interpretation:Two prediction models, linear regression, and an ANN, are trained, evaluated, and interpreted with SHAP values using the training, validation, and testing data. The performance of each model is assessed using the R2 score. The ANN is identified as the winning algorithm based on superior performance.
 
 ## Results
 The results indicate that both the linear regression and ANN models demonstrated similar generalization capabilities. However, the ANN model exhibited better overall performance in accurately predicting insurance premiums, as reflected by higher R2 scores across the train, validation, and test sets. This suggests that the ANN model is not only accurate but also effectively captures the underlying patterns and relationships in the data, making it a preferred choice for insurance premium estimation.
