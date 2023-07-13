@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Insurance-Premium-Prediction-App'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9AB9A36C5AA4764A9D65A58F4FB9316 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB54A3FD47674CB5BAF5144FEBC56633 }}
